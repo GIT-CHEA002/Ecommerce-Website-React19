@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import "./App.css";
 import HomePage from "./pages/HomePage";
+import CheckoutPage from "./pages/CheckoutPage";
 import { Route, Routes } from "react-router";
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,10 +15,7 @@ function App() {
         <Route
           path="/checkout"
           element={
-            <>
-              {" "}
-              <div>Rest Check out page</div>
-            </>
+           <CheckoutPage/>
           }
         />
       </Routes>
